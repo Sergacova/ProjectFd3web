@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
 //pages
 import About from "../About/about";
-import Contact from "../Contact";
+import Contact from "../Contact/Contact";
 import { useTheme } from "../Context/ThemeContext";
 import Error404 from "../Error/404";
 import Home from "../Home";
