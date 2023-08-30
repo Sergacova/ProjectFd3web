@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useRouteMatch } from "react-router-dom";
-import { useTheme } from "../Context/ThemeContext";
+import { useTheme } from "../../Context/";
 function Users() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
