@@ -3,7 +3,7 @@ import {
   NavLink,
   Route,
   BrowserRouter as Router,
-  Switch,
+  Routes,
 } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
@@ -12,10 +12,7 @@ import About from "../About";
 import Contact from "../Contact";
 import { useTheme } from "../Context/ThemeContext";
 import Error404 from "../Error/404";
-import Footer from "../Footer";
 import Home from "../Home";
-import User from "../User";
-import Users from "../Users";
 
 function Container() {
   const { theme, setTheme } = useTheme();
@@ -55,14 +52,12 @@ function Container() {
               </li>
             </ul>
           </nav>
-          <Switch>
+          <Routes>
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
-            <Route path="/users/:id" component={User} />
-            <Route path="/users" component={Users} />
             <Route path="/" exact component={Home} />
             <Route path="*" component={Error404} />
-          </Switch>
+          </Routes>
         </div>
       </Router>
     </div>
