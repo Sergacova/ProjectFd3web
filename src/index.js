@@ -7,9 +7,9 @@ import {Provider} from "./Context"
 ReactDOM.render(
   <React.StrictMode>
     <Provider>
-     
-    </Provider>
     <App />
+    </Provider>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
