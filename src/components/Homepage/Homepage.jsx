@@ -27,3 +27,5 @@ Some mountain passes above the tree line have problems with snow drift in the wi
         </div>
     </div>
     )}
+
+    export default Homepage
