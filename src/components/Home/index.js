@@ -14,30 +14,18 @@ function Home() {
         </div>
         <div className="col">
           <p className="card-text">
-            Apakah Lorem Ipsum itu? Lorem Ipsum adalah contoh teks atau dummy
-            dalam industri percetakan dan penataan huruf atau typesetting. Lorem
-            Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat
-            seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan
-            teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia
-            tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke
-            penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai
-            dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran
-            Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan
-            seiring munculnya perangkat lunak Desktop Publishing seperti Aldus
-            PageMaker juga memiliki versi Lorem Ipsum.
+          A mountain pass is a navigable route through a mountain range or over a ridge. Since mountain ranges can present formidable barriers to travel, passes have played a key role in trade, war, and both human and animal migration throughout history. At lower elevations it may be called a hill pass.
           </p>
           <p className="lead">
-            Apakah Lorem Ipsum itu? Lorem Ipsum adalah contoh teks atau dummy
-            dalam industri percetakan dan penataan huruf atau typesetting. Lorem
-            Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat
-            seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan
-            teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia
-            tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke
-            penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai
-            dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran
-            Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan
-            seiring munculnya perangkat lunak Desktop Publishing seperti Aldus
-            PageMaker juga memiliki versi Lorem Ipsum.
+          Roads and railways have long been built through passes. Some high and rugged passes may have tunnels bored underneath a nearby mountainside, as with the Eisenhower Tunnel bypassing Loveland Pass in the Rockies, to allow faster traffic flow throughout the year.
+
+The top of a pass is frequently the only flat ground in the area, and is a high vantage point. In some cases this makes it a preferred site for buildings. If a national border follows a mountain range, a pass over the mountains is typically on the border, and there may be a border control or customs station, and possibly a military post. For instance, Argentina and Chile share the world's third-longest international border, 5,300 kilometres (3,300 mi) long, which runs north–south along the Andes mountains including 42 mountain passes.
+
+On a road over a pass, it is customary to have a small roadside sign giving the name of the pass and its elevation above mean sea level.
+
+Apart from offering relatively easy travel between valleys, passes also provide a route between two mountain tops with a minimum of descent. As a result, it is common for tracks to meet at a pass; this often makes them convenient routes even when travelling between a summit and the valley floor. Passes traditionally were places for trade routes, communications, cultural exchange, military expeditions etc. A typical example is the Brenner pass in the Alps.
+
+Some mountain passes above the tree line have problems with snow drift in the winter. This might be alleviated by building the road a few meters above the ground, which will make snow blow off the road.
           </p>
         </div>
       </div>
@@ -46,3 +34,4 @@ function Home() {
 }
 
 export default Home;
+
