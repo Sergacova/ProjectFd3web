@@ -1,3 +1,4 @@
+import react from "react" 
 function About() {
   return (
     <div className="container">
@@ -48,7 +49,7 @@ This phenomenon occurs because the Earth is a sphere. As the altitude increases,
         <div className="col-md-6">
           <img
             src="https://images.unsplash.com/photo-1642548666500-7990b88e691f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="Hakkında Resmi"
+            alt="about"
             className="rounded w-100"
           />
         </div>
